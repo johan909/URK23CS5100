@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/hotel_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "yourpassword";  // Replace with your DB password
+    private static final String DB_PASSWORD = "password";  
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
